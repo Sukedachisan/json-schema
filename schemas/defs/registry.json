@@ -21,7 +21,7 @@
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/patterns.json"
         },
         "properties": {
-            "title": "汎用プロパティ定義",
+            "title": "プロパティ定義",
             "description": "汎用プロパティ定義ファイルへの参照",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/properties.json"
         },
