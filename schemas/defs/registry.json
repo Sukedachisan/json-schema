@@ -8,7 +8,7 @@
         "identifiers": {
             "title": "識別子定義",
             "description": "UUIDや独自IDなどの識別子定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/identifiers.json"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/identifiers.json"
         },
         "enums": {
             "title": "列挙型定義",
