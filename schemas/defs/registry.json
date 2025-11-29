@@ -22,7 +22,7 @@
         },
         "properties": {
             "title": "汎用プロパティ定義",
-            "description": "プロパティ定義ファイルへの参照",
+            "description": "汎用プロパティ定義ファイルへの参照",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/properties.json"
         },
         "datetime": {
