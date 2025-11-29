@@ -1,7 +1,7 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/patterns.json",
-    "title": "ValidationPatterns",
+    "title": "CommonValidationPatterns",
     "description": "システム全体で利用される共通正規表現パターン定義集（入力バリデーション用）",
     "$comment": "$defs内の各要素を$refで参照して利用してください。type:stringを含んでいます。",
     "$defs": {
