@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://kyandori.github.io/json-schema/schemas/registry.json",
+    "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/registry.json",
     "title": "SchemaRegistry",
     "description": "システム全体で使用する共通定義スキーマの統合レジストリ",
     "$comment": "各定義ファイルへのルーティングを行います。利用側はこのファイルを経由して各定義を参照できます。",
