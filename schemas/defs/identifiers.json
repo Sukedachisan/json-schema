@@ -17,8 +17,8 @@
             "$ref": "#/$defs/uuid"
         },
         "companyId": {
-            "title": "会社ID",
-            "description": "会社を一意に識別するためのID (UUID v4形式)",
+            "title": "企業ID",
+            "description": "企業を一意に識別するためのID (UUID v4形式)",
             "$ref": "#/$defs/uuid"
         },
         "newPropertyId": {
