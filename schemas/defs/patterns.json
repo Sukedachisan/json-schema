@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://kyandori.github.io/json-schema/schemas/defs/patterns.json",
+    "$id": "https://sukedachisan.github.io/json-schema/defs/patterns.json",
     "title": "ValidationPatterns",
     "description": "共通で使用される正規表現パターン定義集（入力バリデーション用）",
     "$comment": "$defs内の各要素を$refで参照して利用してください。type:stringを含んでいます。",
