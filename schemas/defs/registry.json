@@ -1,1 +1,49 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://kyandori.github.io/json-schema/schemas/registry.json",
+    "title": "",
+    "description": "",
+    "$comment": "各定義ファイルへのルーティングを行います。利用側はこのファイルを経由して各定義を参照できます。",
+    "$defs": {
+        "identifiers": {
+            "title": "識別子定義",
+            "description": "UUIDや独自IDなどの識別子定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/identifiers.json"
+        },
+        "enums": {
+            "title": "列挙型定義",
+            "description": "都道府県などの定数リスト定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/enums.json"
+        },
+        "patterns": {
+            "title": "パターン定義",
+            "description": "正規表現などのバリデーションパターン定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/patterns.json"
+        },
+        "properties": {
+            "title": "汎用プロパティ定義",
+            "description": "氏名、住所、連絡先などの複合プロパティ定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/properties.json"
+        },
+        "datetime": {
+            "title": "日時定義",
+            "description": "日付・時刻に関する汎用定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/datetime.json"
+        },
+        "company": {
+            "title": "会社エンティティ",
+            "description": "会社情報に関する定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/entities/company.json"
+        },
+        "person": {
+            "title": "個人エンティティ",
+            "description": "担当者や従業員などの個人情報に関する定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/entities/person.json"
+        },
+        "bankAccount": {
+            "title": "銀行口座エンティティ",
+            "description": "銀行口座情報に関する定義ファイルへの参照",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/entities/bankAccount.json"
+        }
+    }
+}
