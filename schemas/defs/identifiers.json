@@ -25,7 +25,7 @@
             "title": "新物件ID",
             "description": "P+16桁の数字からなる新識別子",
             "example": "P1234567890123456",
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/registry.json#/$defs/newPropertyId"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/registry.json#/$defs/patterns/newPropertyId"
         },
         "oldPropertyId": {
             "title": "旧物件ID",
