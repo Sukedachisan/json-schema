@@ -13,37 +13,22 @@
         "enums": {
             "title": "列挙型定義",
             "description": "都道府県などの定数リスト定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/enums.json"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/enums.json"
         },
         "patterns": {
             "title": "パターン定義",
             "description": "正規表現などのバリデーションパターン定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/patterns.json"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/patterns.json"
         },
         "properties": {
             "title": "汎用プロパティ定義",
             "description": "氏名、住所、連絡先などの複合プロパティ定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/properties.json"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/properties.json"
         },
         "datetime": {
             "title": "日時定義",
             "description": "日付・時刻に関する汎用定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/datetime.json"
-        },
-        "company": {
-            "title": "会社エンティティ",
-            "description": "会社情報に関する定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/entities/company.json"
-        },
-        "person": {
-            "title": "個人エンティティ",
-            "description": "担当者や従業員などの個人情報に関する定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/entities/person.json"
-        },
-        "bankAccount": {
-            "title": "銀行口座エンティティ",
-            "description": "銀行口座情報に関する定義ファイルへの参照",
-            "$ref": "https://kyandori.github.io/json-schema/schemas/entities/bankAccount.json"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/datetime.json"
         }
     }
 }
