@@ -7,12 +7,12 @@
     "$defs": {
         "identifiers": {
             "title": "識別子定義",
-            "description": "UUIDや独自IDなどの識別子定義ファイルへの参照",
+            "description": "識別子定義ファイルへの参照",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/identifiers.json"
         },
         "enums": {
             "title": "列挙型定義",
-            "description": "都道府県などの定数リスト定義ファイルへの参照",
+            "description": "定数リスト定義ファイルへの参照",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/enums.json"
         },
         "patterns": {
@@ -22,7 +22,7 @@
         },
         "properties": {
             "title": "汎用プロパティ定義",
-            "description": "氏名、住所、連絡先などの複合プロパティ定義ファイルへの参照",
+            "description": "プロパティ定義ファイルへの参照",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/properties.json"
         },
         "datetime": {
