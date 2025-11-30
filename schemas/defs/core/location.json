@@ -42,7 +42,7 @@
             "title": "建物名・部屋番号",
             "description": "集合住宅名、フロア、部屋番号等",
             "example": "吉田マンション 105号室",
-            "$ref": "#/$defs/nameDefinitions/name"
+            "type": "string"
         },
         "latitude": {
             "title": "緯度",
