@@ -22,6 +22,7 @@
             "description": "個人名（ファーストネーム）",
             "example": "太郎",
             "$ref": "#/$defs/name"
+            ^\S+$
         },
         "lastName": {
             "title": "姓",
@@ -29,13 +30,13 @@
             "example": "山田",
             "$ref": "#/$defs/name"
         },
-        "firstName": {
+        "firstNameKana": {
             "title": "メイ",
             "description": "個人名のフリガナ",
             "example": "タロウ",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/kanaStrict"
         },
-        "lastName": {
+        "lastNameKana": {
             "title": "セイ",
             "description": "氏族名のフリガナ",
             "example": "ヤマダ",
