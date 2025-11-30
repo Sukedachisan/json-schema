@@ -6,10 +6,10 @@
     "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
         "newPropertyId": {
-            "$ref": "#/$defs/newPropertyId"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/identifier.json#/$defs/newPropertyId"
         },
         "oldPropertyId": {
-            "$ref": "#/$defs/oldPropertyId"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/identifier.json#/$defs/oldPropertyId"
         }
     }
 }
