@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/property-id.json",
     "title": "PropertyIdDefinitions",
-    "description": "新物件IDおよび旧物件IDを格納する物件識別子定義（ID）",
+    "description": "新物件IDおよび旧物件IDを格納する物件識別子定義",
     "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
         "newPropertyId": {
