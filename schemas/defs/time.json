@@ -6,14 +6,10 @@
     "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
         "hour": {
-            "title": "時",
-            "description": "営業開始時間など",
-            "$ref": ""
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/datetime.json#/$defs/hour"
         },
         "minute": {
-            "title": "分",
-            "description": "営業終了時間など",
-            "$ref": ""
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/datetime.json#/$defs/minute"
         }
     }
 }
