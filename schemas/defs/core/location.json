@@ -1,1 +1,13 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/core/location.json",
+    "title": "CommonLocationDefinitions",
+    "description": "システム全体で利用される共通位置情報定義集",
+    "$comment": "$defs内の各要素を$refで参照して利用してください。",
+    "$defs": {
+        "postalCode": {
+            "example": "1140034",
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/postalCode"
+        },
+    }
+}
