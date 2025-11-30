@@ -1,1 +1,42 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/src/core/definitions/datetime.json",
+    "title": "CommonDateTimeDefinitions",
+    "description": "システム全体で利用される共通日時定義集",
+    "$defs": {
+        "dateTime": {
+            "title": "日時（ISO 8601）",
+            "description": "ISO 8601形式の日時文字列",
+            "type": "string",
+            "format": "date-time",
+            "example": "2023-01-01T12:00:00Z"
+        },
+        "dayOfWeek": {
+            "title": "曜日",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/dayOfWeek"
+        },
+        "year": {
+            "title": "年",
+            "description": "西暦年（4桁の数字文字列）",
+            "type": "string",
+            "pattern": "^[1-9][0-9]{3}$",
+            "example": "2025"
+        },
+        "month": {
+            "title": "月",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/month"
+        },
+        "day": {
+            "title": "日",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/day"
+        },
+        "hour": {
+            "title": "時",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/hour"
+        },
+        "minute": {
+            "title": "分",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/minute"
+        }
+    }
+}
