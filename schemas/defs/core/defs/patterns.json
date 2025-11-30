@@ -5,6 +5,12 @@
     "description": "システム全体で利用される共通正規表現パターン定義集",
     "$comment": "$defs内の各要素を$refで参照して利用してください。type:stringを含んでいます。",
     "$defs": {
+        "nameStrict": {
+            "title": "全角カナ（厳格）",
+            "description": "全角カタカナおよび長音記号のみで構成される文字列（スペース不可）",
+            "type": "string",
+            "pattern": "^\S+$"
+        },
         "kana": {
             "title": "全角カナ（スペース許容）",
             "description": "全角カタカナ、長音記号、およびスペース（半角・全角）のみで構成される文字列",
