@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/src/core/definitions/time.json",
+    "title": "TimeDefinitions",
+    "description": "時間と分数で構成される時間定義",
+    "$comment": "$defs内の各要素を$refで参照して利用してください。",
+    "$defs": {
+        "hour": {
+            "title": "時",
+            "description": "00から23までの文字列",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/hour"
+        },
+        "minute": {
+            "title": "分",
+            "description": "00から59までの文字列",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/enums.json#/$defs/minute"
+        }
+    }
+}
