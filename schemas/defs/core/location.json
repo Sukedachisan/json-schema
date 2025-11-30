@@ -24,7 +24,7 @@
             "title": "町域",
             "description": "大字・町名",
             "example": "西生田",
-            "$ref": "#/$defs/nameDefinitions/name"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/nameStrict"
         },
         "subdistrict": {
             "title": "丁目",
