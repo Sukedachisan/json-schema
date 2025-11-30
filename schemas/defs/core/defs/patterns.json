@@ -6,10 +6,10 @@
     "$comment": "$defs内の各要素を$refで参照して利用してください。type:stringを含んでいます。",
     "$defs": {
         "nameStrict": {
-            "title": "全角カナ（厳格）",
-            "description": "全角カタカナおよび長音記号のみで構成される文字列（スペース不可）",
+            "title": "非空白名称文字列",
+            "description": "空白（スペース、タブ、改行、復帰、フォームフィード、垂直タブ等）を含まない文字列",
             "type": "string",
-            "pattern": "^\S+$"
+            "pattern": "^\\S+$"
         },
         "kana": {
             "title": "全角カナ（スペース許容）",
