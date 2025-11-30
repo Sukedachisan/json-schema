@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/time-range.json",
     "title": "TimeRangeDefinitions",
-    "description": "開始時刻および終了時刻を格納する時間範囲定義",
+    "description": "開始時刻と終了時刻で構成される時間範囲定義",
     "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
         "startTime": {
