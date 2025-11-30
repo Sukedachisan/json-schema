@@ -17,67 +17,36 @@
             "description": "日本語表記の曜日",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/dayOfWeek"
         },
-        "yearInteger": {
-            "title": "年",
-            "description": "西暦年（1000年以降）",
-            "type": "integer",
-            "minimum": 1000,
-            "example": 2025
-        },
-        "monthInteger": {
-            "title": "月",
-            "description": "1月から12月までの整数値",
-            "example": 1,
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/monthInteger"
-        },
-        "dayInteger": {
-            "title": "日",
-            "description": "1日から31日までの整数値",
-            "example": 1,
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/dayInteger"
-        },
-        "yearString": {
+        "year": {
             "title": "年",
             "description": "西暦年（4桁の数字文字列、1000年以降）",
             "type": "string",
             "pattern": "^[1-9][0-9]{3}$",
             "example": "2025"
         },
-        "monthString": {
+        "month": {
             "title": "月",
             "description": "01月から12月までの文字列（ゼロ埋め2桁）",
             "example": "01",
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/monthString"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/month"
         },
-        "dayString": {
+        "day": {
             "title": "日",
             "description": "01日から31日までの文字列（ゼロ埋め2桁）",
             "example": "01",
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/dayString"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/day"
         },
-        "hourInteger": {
-            "title": "時",
-            "description": "0時から23時までの整数値",
-            "example": 12,
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/hourInteger"
-        },
-        "minuteInteger": {
-            "title": "分",
-            "description": "0分から59分までの整数値",
-            "example": 30,
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/minuteInteger"
-        },
-        "hourString": {
+        "hour": {
             "title": "時",
             "description": "00時から23時までの文字列（ゼロ埋め2桁）",
             "example": "09",
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/hourString"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/hour"
         },
-        "minuteString": {
+        "minute": {
             "title": "分",
             "description": "00分から59分までの文字列（ゼロ埋め2桁）",
             "example": "05",
-            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/minuteString"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/minute"
         }
     }
 }
