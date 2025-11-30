@@ -3,7 +3,7 @@
     "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/core/identifier.json",
     "title": "CommonIdentifierDefinitions",
     "description": "システム全体で利用される共通識別子定義集",
-    "$comment": "正規表現パターンはpatterns.jsonを参照しています。",
+    "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
         "uuid": {
             "title": "UUID",
