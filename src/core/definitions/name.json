@@ -1,1 +1,42 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/src/core/definitions/name.json",
+    "title": "CommonNameDefinitions",
+    "description": "システム全体で利用される共通名称定義集",
+    "$defs": {
+        "name": {
+            "title": "名称",
+            "description": "汎用的な名称文字列",
+            "type": "string"
+        },
+        "kana": {
+            "title": "フリガナ",
+            "description": "全角カタカナによる名称読み仮名",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/kana"
+        },
+        "firstName": {
+            "title": "名",
+            "description": "個人名（ファーストネーム）",
+            "example": "太郎",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/nameStrict"
+        },
+        "lastName": {
+            "title": "姓",
+            "description": "氏族名（ラストネーム）",
+            "example": "山田",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/nameStrict"
+        },
+        "firstNameKana": {
+            "title": "メイ",
+            "description": "個人名のフリガナ",
+            "example": "タロウ",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/kanaStrict"
+        },
+        "lastNameKana": {
+            "title": "セイ",
+            "description": "氏族名のフリガナ",
+            "example": "ヤマダ",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/kanaStrict"
+        }
+    }
+}
