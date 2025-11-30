@@ -8,7 +8,7 @@
             "title": "非空白名称文字列",
             "description": "空白（半角・全角スペース、タブ、改行等）を一切含まない文字列",
             "type": "string",
-            "pattern": "^[^ \u3000\t\n\r\f\v]+$"
+            "pattern": "^[^ \u3000\t\n\r\f\u000b]+$"
         },
         "kana": {
             "title": "全角カナ（スペース許容）",
