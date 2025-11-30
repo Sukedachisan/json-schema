@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://kyandori.github.io/json-schema/schemas/defs/structured-property-id.json",
     "title": "StructuredPropertyIdDefinitions",
-    "description": "システム全体で利用される識別子（ID）の定義集",
+    "description": "構造化された物件識別子定義（ID）",
     "$comment": "正規表現パターンはpatterns.jsonを参照しています。",
     "$defs": {
         
