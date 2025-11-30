@@ -1,1 +1,36 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/src/core/definitions/identifier.json",
+    "title": "CommonIdentifierDefinitions",
+    "description": "システム全体で利用される共通識別子定義集",
+    "$defs": {
+        "uuid": {
+            "title": "UUID",
+            "description": "一意の識別子 (UUID v4形式)",
+            "type": "string",
+            "format": "uuid"
+        },
+        "customerId": {
+            "title": "顧客ID",
+            "description": "顧客を一意に識別するためのID (UUID v4形式)",
+            "$ref": "#/$defs/uuid"
+        },
+        "companyId": {
+            "title": "企業ID",
+            "description": "企業を一意に識別するためのID (UUID v4形式)",
+            "$ref": "#/$defs/uuid"
+        },
+        "newPropertyId": {
+            "title": "新物件ID",
+            "description": "P+16桁の数字からなる新識別子",
+            "example": "P1234567890123456",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/newPropertyId"
+        },
+        "oldPropertyId": {
+            "title": "旧物件ID",
+            "description": "4-8桁の数字からなる旧識別子",
+            "example": "123456",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/oldPropertyId"
+        }
+    }
+}
