@@ -61,3 +61,44 @@
         }
     }
 }
+
+        "newPropertyId": {
+            "title": "新物件ID",
+            "description": "P+16桁の数字からなる新識別子",
+            "example": "P1234567890123456",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/patterns.json#/$defs/newPropertyId"
+        },
+        "oldPropertyId": {
+            "title": "旧物件ID",
+            "description": "4-8桁の数字からなる旧識別子",
+            "example": "123456",
+            "$ref": "https://kyandori.github.io/json-schema/schemas/defs/patterns.json#/$defs/oldPropertyId"
+        },
+        "structuredPropertyId": {
+            "title": "物件ID情報（構造化）",
+            "description": "新物件IDおよび旧物件IDを格納する物件識別情報（いずれか必須）",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "newPropertyId": {
+                    "$ref": "#/$defs/newPropertyId"
+                },
+                "oldPropertyId": {
+                    "$ref": "#/$defs/oldPropertyId"
+                }
+            },
+            "anyOf": [
+                {
+                    "required": [
+                        "newPropertyId"
+                    ]
+                },
+                {
+                    "required": [
+                        "oldPropertyId"
+                    ]
+                }
+            ]
+        }
+    }
+}
