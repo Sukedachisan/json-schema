@@ -9,5 +9,56 @@
             "example": "1140034",
             "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/postalCode"
         },
+        "prefecture": {
+            "title": "都道府県",
+            "description": "JIS X 0401に基づく都道府県名",
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/enums.json#/$defs/prefecture"
+        },
+        "city": {
+            "title": "市区町村",
+            "description": "行政区画（市・区・町・村）",
+            "example": "川崎市多摩区",
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/city"
+        },
+        "district": {
+            "title": "町域",
+            "description": "大字・町名",
+            "example": "西生田",
+            "$ref": "#/$defs/nameDefinitions/name"
+        },
+        "subdistrict": {
+            "title": "丁目",
+            "description": "丁目番地等の数値区分",
+            "example": "3",
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/subdistrict"
+        },
+        "streetAddress": {
+            "title": "番地・号",
+            "description": "街区番号、住居番号",
+            "example": "3-15",
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/streetAddress"
+        },
+        "buildingNameRoomNumber": {
+            "title": "建物名・部屋番号",
+            "description": "集合住宅名、フロア、部屋番号等",
+            "example": "吉田マンション 105号室",
+            "$ref": "#/$defs/nameDefinitions/name"
+        },
+        "latitude": {
+            "title": "緯度",
+            "description": "北緯（正）または南緯（負）",
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90,
+            "example": 35.6895
+        },
+        "longitude": {
+            "title": "経度",
+            "description": "東経（正）または西経（負）",
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180,
+            "example": 139.6917
+        }
     }
 }
