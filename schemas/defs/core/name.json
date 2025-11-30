@@ -8,7 +8,7 @@
         "name": {
             "$comment": "汎用的な名称定義。利用時にtitle等をオーバーライドしてください。",
             "title": "名称",
-            "description": "称文字列",
+            "description": "名称文字列",
             "type": "string"
         },
         "kana": {
