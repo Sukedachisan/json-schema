@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/enums.json",
+    "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/core/enums.json",
     "title": "CommonEnumerationDefinitions",
     "description": "システム全体で利用される共通列挙型定義集（都道府県名、日時など）",
     "$comment": "$defs内の各要素を$refで参照して利用してください。type:stringを含んでいます。",
