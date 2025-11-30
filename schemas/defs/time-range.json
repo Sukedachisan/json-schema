@@ -8,12 +8,12 @@
         "startTime": {
             "title": "開始時刻",
             "description": "営業開始時間など",
-            "$ref": ""
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/time.json"
         },
         "endTime": {
             "title": "終了時刻",
             "description": "営業終了時間など",
-            "$ref": ""
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/time.json"
         }
     }
 }
