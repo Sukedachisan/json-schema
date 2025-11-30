@@ -2,9 +2,14 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://kyandori.github.io/json-schema/schemas/defs/structured-property-id.json",
     "title": "StructuredPropertyIdDefinitions",
-    "description": "構造化された物件識別子定義（ID）",
+    "description": "新物件IDおよび旧物件IDを格納する物件識別子定義（ID）",
     "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
-        
+        "newPropertyId": {
+            "$ref": "#/$defs/newPropertyId"
+        },
+        "oldPropertyId": {
+            "$ref": "#/$defs/oldPropertyId"
+        }
     }
 }
