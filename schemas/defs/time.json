@@ -6,12 +6,12 @@
     "$comment": "$defs内の各要素を$refで参照して利用してください。",
     "$defs": {
         "hour": {
-            "title": "開始時刻",
+            "title": "時",
             "description": "営業開始時間など",
             "$ref": ""
         },
         "minute": {
-            "title": "終了時刻",
+            "title": "分",
             "description": "営業終了時間など",
             "$ref": ""
         }
