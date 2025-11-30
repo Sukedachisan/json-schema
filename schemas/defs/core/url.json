@@ -1,1 +1,16 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/core/url.json",
+    "title": "CommonUrlDefinitions",
+    "description": "システム全体で利用される共通URL定義集",
+    "$comment": "$defs内の各要素を$refで参照して利用してください。",
+    "$defs": {
+        "url": {
+            "title": "URL",
+            "description": "URL（URI形式）",
+            "type": "string",
+            "format": "uri",
+            "example": "https://example.com"
+        }
+    }
+}
