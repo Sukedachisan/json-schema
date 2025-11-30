@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://sukedachisan.github.io/json-schema/schemas/defs/core/identifiers.json",
     "title": "CommonIdentifierDefinitions",
-    "description": "システム全体で利用される共通識別子定義集（ID）",
+    "description": "システム全体で利用される共通識別子定義集",
     "$comment": "正規表現パターンはpatterns.jsonを参照しています。",
     "$defs": {
         "uuid": {
