@@ -1,1 +1,33 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/src/core/definitions/contact.json",
+    "title": "CommonContactDefinitions",
+    "description": "システム全体で利用される共通連絡先定義集",
+    "$defs": {
+        "phoneNumber": {
+            "title": "電話番号",
+            "description": "固定電話、携帯電話、またはIP電話形式の番号（ハイフンなし）",
+            "example": "0312345678",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/phoneNumber"
+        },
+        "mobile": {
+            "title": "携帯電話番号",
+            "description": "ハイフンなし11桁の携帯電話番号",
+            "example": "09012345678",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/phoneNumberMobile"
+        },
+        "landline": {
+            "title": "固定電話番号",
+            "description": "ハイフンなし10桁または11桁の固定電話番号",
+            "example": "0312345678",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/phoneNumberLandline"
+        },
+        "email": {
+            "title": "メールアドレス",
+            "description": "RFC 5322形式の電子メールアドレス",
+            "type": "string",
+            "format": "email",
+            "example": "info@example.co.jp"
+        }
+    }
+}
