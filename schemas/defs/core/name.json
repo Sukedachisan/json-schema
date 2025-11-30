@@ -21,14 +21,13 @@
             "title": "名",
             "description": "個人名（ファーストネーム）",
             "example": "太郎",
-            "$ref": "#/$defs/name"
-            ^\S+$
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/nameStrict"
         },
         "lastName": {
             "title": "姓",
             "description": "氏族名（ラストネーム）",
             "example": "山田",
-            "$ref": "#/$defs/name"
+            "$ref": "https://sukedachisan.github.io/json-schema/schemas/defs/core/defs/patterns.json#/$defs/nameStrict"
         },
         "firstNameKana": {
             "title": "メイ",
