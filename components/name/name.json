@@ -1,1 +1,18 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/components/name/name.json",
+    "title": "NameDefinitions",
+    "description": "名称定義",
+    "$defs": {
+        "name": {
+            "title": "名称",
+            "description": "汎用的な名称文字列",
+            "type": "string"
+        },
+        "kana": {
+            "title": "フリガナ",
+            "description": "全角カタカナによる名称読み仮名",
+            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/kana"
+        }
+    }
+}
