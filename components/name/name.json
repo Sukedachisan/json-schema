@@ -12,7 +12,7 @@
         "kana": {
             "title": "フリガナ",
             "description": "全角カタカナによる名称読み仮名",
-            "$ref": "https://sukedachisan.github.io/json-schema/src/core/patterns.json#/$defs/kana"
+            "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/kana"
         }
     }
 }
