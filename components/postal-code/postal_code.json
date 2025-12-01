@@ -1,1 +1,9 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/components/",
+    "title": "Definition",
+    "description": "定義",
+    "$defs": {
 
+    }
+}
