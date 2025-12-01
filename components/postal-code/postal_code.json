@@ -1,9 +1,12 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://sukedachisan.github.io/json-schema/components/",
-    "title": "Definition",
-    "description": "定義",
+    "$id": "https://sukedachisan.github.io/json-schema/components/postal-code/postal_code.json",
+    "title": "PostalCodeDefinition",
+    "description": "郵便番号定義",
     "$defs": {
-
+        "postalCode": {
+            "example": "1140034",
+            "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/postalCode"
+        }
     }
 }
