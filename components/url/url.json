@@ -1,1 +1,15 @@
-
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://sukedachisan.github.io/json-schema/components/url/url.json",
+    "title": "UrlDefinition",
+    "description": "URL定義",
+    "$defs": {
+        "url": {
+            "title": "URL",
+            "description": "URL（URI形式）",
+            "type": "string",
+            "format": "uri",
+            "example": "https://example.com"
+        }
+    }
+}
