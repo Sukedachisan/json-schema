@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://sukedachisan.github.io/json-schema/components/name/full_name.json",
     "title": "FullNameDefinitions",
-    "description": "名前定義",
+    "description": "氏名定義",
     "$defs": {
         "firstName": {
             "title": "名",
