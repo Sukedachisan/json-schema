@@ -6,6 +6,8 @@
     "$defs": {
         "postalCode": {
             "example": "1140034",
+            "minLength": 7,
+            "maxLength": 7,
             "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/postalCode"
         }
     }
