@@ -7,11 +7,13 @@
         "name": {
             "title": "名称",
             "description": "汎用的な名称文字列",
-            "type": "string"
+            "type": "string",
+            "maxLength": 255
         },
         "kana": {
             "title": "フリガナ",
             "description": "全角カタカナによる名称読み仮名",
+            "maxLength": 255,
             "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/kana"
         }
     }
