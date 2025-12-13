@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://sukedachisan.github.io/json-schema/components/",
+    "$id": "https://sukedachisan.github.io/json-schema/components/phone-number/phone_number.json",
     "title": "Definition/s",
     "description": "定義",
     "$defs": {
