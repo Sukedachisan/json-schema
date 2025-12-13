@@ -4,6 +4,13 @@
     "title": "PhoneNumberDefinition",
     "description": "電話番号定義",
     "$defs": {
+        "phoneNumber": {
+            "title": "電話番号",
+            "description": "固定電話、携帯電話、またはIP電話形式の番号（ハイフンなし）",
+            "example": "0312345678",
+            "minLength": 10,
+            "maxLength": 11,
+            "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/phoneNumber"
+        }
     }
 }
-https://sukedachisan.github.io/json-schema/definitions/patterns.json
