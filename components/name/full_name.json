@@ -20,14 +20,14 @@
         },
         "firstNameKana": {
             "title": "メイ",
-            "description": "個人名のフリガナ",
+            "description": "個人名（ファーストネーム）のフリガナ",
             "example": "タロウ",
             "maxLength": 255,
             "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/kanaStrict"
         },
         "lastNameKana": {
             "title": "セイ",
-            "description": "氏族名のフリガナ",
+            "description": "氏族名（ラストネーム）のフリガナ",
             "example": "ヤマダ",
             "maxLength": 255,
             "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/kanaStrict"
