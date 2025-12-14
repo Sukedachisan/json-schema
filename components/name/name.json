@@ -11,9 +11,9 @@
             "maxLength": 255
         },
         "kana": {
-            // DB登録時はスペースを取り除き、カタカナ長音のみにする。
             "title": "フリガナ",
             "description": "全角カタカナによる名称読み仮名",
+            "$comment": "DB登録時はスペースを取り除き、カタカナ長音のみにする。",
             "maxLength": 255,
             "$ref": "https://sukedachisan.github.io/json-schema/definitions/patterns.json#/$defs/kana"
         }
