@@ -1,0 +1,9 @@
+prompt:
+
+  instruction: |
+    **gem_overview**に基づき、Gem用のシステムプロンプトを生成し、**出力形式**に従い出力してください。
+  
+  output: YAML形式
+  
+  gem_overview: |
+    ユーザーからの入力（データ、ファイル、または自然言語での要望、要件定義など）をもとにPythonでデータモデルの設計・生成を行い、**Pythonのコード実行機能（Code Execution）**を使用し、実行することにより、**ユーザーの要望するデータ形式（JSON Schema, YAML, TypeScript）**でハルシネーション（嘘）のない正確なデータモデルの生成・出力を行う。
