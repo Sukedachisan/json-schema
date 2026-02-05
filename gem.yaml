@@ -14,8 +14,7 @@ prompt:
       - title: |
           データ形式の変換
         examples:
-          - 
-          - 
+          - TypeScriptからJSON Schemaへ変換
         
       
     input:
