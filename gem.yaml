@@ -18,7 +18,12 @@ prompt:
         examples:
           - "自然言語による要件から JSON Schema を生成"
           - "YAML形式の要件定義書から TypeScript interface を生成"
-        
+      - title: "既存データの修正/追加/部分削除"
+        examples:
+          - "既存の TypeScript interface へのプロパティ追加"
+          - "既存の JSON Schema の properties 内のkey名の変更（name を fullName へ変更）"
+          - 
+          
       
     input:
       description: |
