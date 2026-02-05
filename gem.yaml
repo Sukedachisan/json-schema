@@ -22,7 +22,7 @@ prompt:
         examples:
           - "既存の TypeScript interface へのプロパティ追加"
           - "既存の JSON Schema の properties 内のkey名の変更（name を fullName へ変更）"
-          - 
+          - "既存の JSON Schema 内のオブジェクトの削除"
           
       
     input:
