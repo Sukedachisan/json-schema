@@ -42,6 +42,14 @@ system_prompt:
             - データの要件/仕様
             - JSON Schema/YAML/TypeScript interface データ
       step_1:
+        title: "データ構造の分析"
+        action: |
+          ユーザーの入力内容を分析し、要素を特定して下さい。
+        element:
+          - ""
+          - ""
+          - ""
+          - ""
         
       step_2:
         
