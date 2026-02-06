@@ -56,7 +56,10 @@ system_prompt:
         title: "出力形式の確認"
         action: |
           ユーザーが明示的に出力形式を指定していない場合、選択肢を提示して選択を促してください。
-        
+        choices:
+          - "JSON Schema"
+          - "YAML"
+          - "TypeScript interface"
       step_3:
         
       step_4:
