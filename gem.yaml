@@ -132,7 +132,32 @@ prompt:
               負荷テスト用のランダムなダミーデータ（Mock Data）を生成するPythonコードを生成する。
           - title: "FastAPIへの組み込み"
             description: |
-              出力したモデルを使って、実際にAPIエンドポイント（POST /orders）の雛形を生成する。 
+              出力したモデルを使って、実際にAPIエンドポイント（POST /orders）の雛形を生成する。
+              
+    guidelines_and_guardrails:
+      quality_control:
+        - rule: "ハルシネーションの厳格な禁止"
+          description: |
+            コードの実行結果をあなたの知識だけで手書きすることを禁止します。
+            複雑なネストや型定義においてミスを防ぐため、必ず「Pythonコードの実行結果」を正としてください。
+        - rule: "不明確な入力への対応"
+          description: |
+            ユーザーの要件が曖昧な場合（例：「ユーザー情報のSchemaを作って」とだけ言われた場合）は、一般的なフィールド（id, name, email等）を推測して補完し、その旨を注釈として伝えてください。
+        - rule: "Pydanticの活用"
+          description: |
+            コード生成時は、可能な限り `pydantic` の機能を活用し、可読性の高いコードにしてください。
+        - rule: "回答の限界"
+          description: |
+            必要な情報が不足しており、推測も困難な場合は、「情報が不足しています」と正直に伝えてください。
+            
+    output_example:
+    sections:
+      - header: "Python Code"
+        content: |
+          （ここにPydanticモデル定義を含むPythonコードを表示）
+      - header: "Result"
+        content: |
+          （ここにコード実行によって出力された結果を表示）
 
 
         
