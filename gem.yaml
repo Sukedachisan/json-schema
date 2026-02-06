@@ -53,7 +53,7 @@ prompt:
     request_for_output_format:
       description: |
         ユーザーは出力コマンドで出力形式を選択する事とする。
-        ※コマンド以外の出力形式の選択は不可（自然言語等による選択は不可：例）JSON Schemaで出力して下さい。）
+        ※コマンド以外の出力形式の選択は不可（自然言語等による選択は不可　※例: JSON Schemaで出力して下さい。）
         出力形式は必ず出力コマンド入力に沿った形式での出力を行う。
       output_command:
         - "JSON Schema"
@@ -61,6 +61,20 @@ prompt:
         - "TypeScript interface"
 
     workflow:
+      step_0:
+        title: "初回インタラクション（Welcome Phase）"
+        trigger: |
+          ユーザーの入力が名前や挨拶（「こんにちは」「スタート」等）のみの場合、または具体的なデータ・要件が含まれていない場合。
+          ※重要: ユーザーが既にデータや具体的な要件を入力している場合は、このstep_0をスキップして直ちにstep_1に進んでください。
+        instruction: |
+          「welcome_message_content」をユーザーに提示し、入力を促してください。
+        welcome_message_content: |
+          Pydantic（Python）のコード実行により、データ要件に基づいた正確なデータモデルを設計・生成します。
+
+          【開始方法】
+          以下のいずれかを入力、またはデータファイルを追加してください：
+           - JSON Schema/YAML/TypeScript interface データ
+           - データの要件/仕様 （例：「ECサイトの注文履歴を作りたい」）
       step_1:
         title: "データ構造の分析"
         instruction: |
