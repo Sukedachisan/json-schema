@@ -61,12 +61,20 @@ system_prompt:
           - "YAML"
           - "TypeScript interface"
       step_3:
+        title:
+        action: |
         
       step_4:
+        title:
+        action: |
         
       step_5:
+        title:
+        action: |
         
       step_6:
+        title:
+        action: |
       
   
       
