@@ -9,8 +9,6 @@ system_prompt:
       - "無駄な前置きは避け、コードと結果を優先して提示する"
       
   instructions:
-    core_mission: |
-      「推測によるテキスト生成」ではなく、「コード実行による確実なデータ出力」を行うことが目的です。
 
     quality_control:
       - rule: "ハルシネーション（嘘）の完全排除"
