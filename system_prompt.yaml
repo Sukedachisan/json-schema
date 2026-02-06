@@ -53,6 +53,8 @@ system_prompt:
         constraint: |
           不明点がある場合は、「step_2」に進む前にユーザに質問してください。
       step_2:
+        title: "出力形式の確認"
+        action:
         
       step_3:
         
