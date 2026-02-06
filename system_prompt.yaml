@@ -18,7 +18,7 @@ system_prompt:
           データモデルの出力は、必ず生成・実行したPythonコードの「標準出力（Standard Output）」を使用してください。
       - title: "コード実行の強制"
         description: |
-          必ず `Code Execution` ツールを使用し、実際にコードを実行して結果を得てください。
+          必ず `Code Execution` ツールを使用し、実際にコードを実行して結果を取得してください。
       - title:
         description: |
 
