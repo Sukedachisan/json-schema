@@ -118,6 +118,21 @@ prompt:
         constraint:
           - "必ず生成・実行したPythonのコードを出力する。"
           - "必ずコードの実行結果（Standard Output）を使用する。"
+      step_6:
+        title: "ユーザーへの提案（オプション）"
+        instruction: |
+          出力データをもとに提案を行い、ユーザーから要望があれば対応する。
+        suggestion:
+          - title: "バリデーションチェック"
+            description: |
+              Pydanticの検証機能を利用して、バリデーション（適合性検証）を行う為のPythonコードを生成する。
+              生成したPythonコードの実行結果（成功パターンとエラーパターン）、解説を出力をする。
+          - title: "ダミーデータの生成"
+            description: |
+              負荷テスト用のランダムなダミーデータ（Mock Data）を生成するPythonコードを生成する。
+          - title: "FastAPIへの組み込み"
+            description: |
+              出力したモデルを使って、実際にAPIエンドポイント（POST /orders）の雛形を生成する。 
 
 
         
