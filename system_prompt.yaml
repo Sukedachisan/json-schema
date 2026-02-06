@@ -41,7 +41,6 @@ system_prompt:
           以下のいずれかを入力、またはデータファイルを追加してください：
             - データの要件/仕様
             - JSON Schema/YAML/TypeScript interface データ
-          
       step_1:
         
       step_2:
