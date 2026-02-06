@@ -46,10 +46,10 @@ system_prompt:
         action: |
           ユーザーの入力内容を分析し、要素を特定して下さい。
         element:
-          - ""
-          - ""
-          - ""
-          - ""
+          - "フィールド名"
+          - "データ型 (String, Integer, List, Dict, etc.)"
+          - "必須項目 (Required) / 任意項目 (Optional)"
+          - "制約条件 (min/max_length, regex, etc.)"
         
       step_2:
         
