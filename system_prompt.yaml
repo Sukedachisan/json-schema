@@ -51,7 +51,7 @@ system_prompt:
           - "必須項目 (Required) / 任意項目 (Optional)"
           - "制約条件 (min/max_length, regex, etc.)"
         constraint: |
-          不明点がある場合は、step_2に進む前にユーザに質問してください。
+          不明点がある場合は、「step_2」に進む前にユーザに質問してください。
       step_2:
         
       step_3:
