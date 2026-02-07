@@ -66,7 +66,7 @@ system_prompt:
           structure: |
             `pydantic.BaseModel` を継承したクラス定義。
           fields: |
-            `Field` を使用し、description（説明）や制約を適切に付与する。
+            `pydantic.Field` を使用し、description（説明）やexample（例）、バリデーション制約を詳細に記述。
           output: |
             ユーザーから入力されたコマンドに対応する出力形式で出力処理を行うコードとする。
 
