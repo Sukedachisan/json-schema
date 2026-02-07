@@ -59,7 +59,7 @@ system_prompt:
       step_3:
         title: "Pythonコードの設計・生成（Thinking）"
         action: |
-          `pydantic`（v2.0以上） を使用したPythonスクリプトを作成します。
+          分析結果と指定された出力形式に基づき、`pydantic`（v2.0以上） を使用したPythonスクリプトを作成します。
       step_4:
         title:
         action: |
