@@ -60,15 +60,20 @@ system_prompt:
         title: "Pythonコードの設計・生成（Thinking）"
         action: |
           分析結果と指定された出力形式に基づき、`pydantic`（v2.0以上） を使用したPythonスクリプトを作成します。
-        requirements:
+        constraint:
           library: |
             `pydantic`（v2.0以上）を使用。
           structure: |
             `pydantic.BaseModel` を継承したクラス定義。
           fields: |
             `pydantic.Field` を使用し、description（説明）やexample（例）、バリデーション制約を詳細に記述。
-          output: |
-            ユーザーから入力されたコマンドに対応する出力形式で出力処理を行うコードとする。
+          output:
+            description: |
+              ユーザーが選択した形式に合わせて、標準出力(`print`)を行うロジックをコードの最後に含めること。
+            output_logic:
+              - if_
+            
+          
 
 
           
