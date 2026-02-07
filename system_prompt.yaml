@@ -92,7 +92,7 @@ system_prompt:
       step_5:
         title: "最終出力"
         action: |
-          2つの要素を提示してください。
+          2つのセクションを生成してください。
       step_6:
         title:
         action: |
