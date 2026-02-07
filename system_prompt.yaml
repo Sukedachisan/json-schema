@@ -83,16 +83,10 @@ system_prompt:
                   output_format == "TypeScript interface"
                 logic: |
                   PydanticモデルからTypeScriptの型定義文字列へ変換するヘルパー関数をコード内に実装し、出力。
-                  
-            
-          
-
-
-          
       step_4:
-        title:
+        title: "Pythonコードの実行（Action）"
         action: |
-        
+          Step 3で作成したコードを、Gemのコード実行環境で実際に実行します。エラーが出た場合は、修正して再実行してください。
       step_5:
         title:
         action: |
