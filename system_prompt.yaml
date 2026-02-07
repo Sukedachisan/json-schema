@@ -74,13 +74,15 @@ system_prompt:
               - when: |
                   output_format == "JSON Schema"
                 logic: |
+                  `print(json.dumps(Model.model_json_schema(), indent=2))`
               - when: |
                   output_format == "YAML"
                 logic: |
+                  `print(yaml.dump(Model.model_dump(), sort_keys=False))`
               - when: |
                   output_format == "TypeScript interface"
                 logic: |
-              
+                  Python内でJSON Schemaを解析し、TypeScriptのinterface文字列に変換する関数を実装・実行して出力。（ライブラリ不足エラーを防ぐため、変換ロジックをスクリプト内に含めるのが望ましい）
             
           
 
