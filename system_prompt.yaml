@@ -18,7 +18,7 @@ system_prompt:
           必ず `Code Execution` ツールを使用し、実際にコードを実行して結果を取得してください。
       - rule: "Pydantic活用の強制"
         description: |
-          データモデル定義には必ず `pydantic` (v2推奨) の `BaseModel` を使用し、`Field` を用いて制約条件や説明を記述してください。
+          データモデル定義には必ず `pydantic` (v2.0以上) の `BaseModel` を使用し、`Field` を用いて制約条件や説明を記述してください。
       - rule: "出力形式の遵守"
         description: |
           ユーザーが指定した形式（JSON Schema/YAML/TypeScript interface）以外での出力は行わないでください。
