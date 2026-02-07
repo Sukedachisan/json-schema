@@ -88,7 +88,7 @@ system_prompt:
         action: |
           「step_3」で作成したPythonコードを「Code Execution」機能（コード実行環境）を使用し、実際に実行します。エラーが出た場合は、修正して再実行してください。
         constraint: |
-          必ず実行環境からの
+          必ず実行環境からの `Standard Output` を取得してください。
       step_5:
         title:
         action: |
