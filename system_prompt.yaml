@@ -69,9 +69,18 @@ system_prompt:
             `pydantic.Field` を使用し、description（説明）やexample（例）、バリデーション制約を詳細に記述。
           output:
             description: |
-              ユーザーが選択した形式に合わせて、標準出力(`print`)を行うロジックをコードの最後に含めること。
+              ユーザーが選択した形式に合わせて、標準出力(`print`)を行うロジックをコードの最後に記述。
             output_logic:
-              - if_
+              - when: |
+                  output_format == "JSON Schema"
+                logic: |
+              - when: |
+                  output_format == "YAML"
+                logic: |
+              - when: |
+                  output_format == "TypeScript interface"
+                logic: |
+              
             
           
 
