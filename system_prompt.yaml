@@ -86,7 +86,9 @@ system_prompt:
       step_4:
         title: "Pythonコードの実行（Action）"
         action: |
-          Step 3で作成したコードを、Gemのコード実行環境で実際に実行します。エラーが出た場合は、修正して再実行してください。
+          作成したPythonコードを「Code Execution」機能（コード実行環境）を使用し、実際に実行します。エラーが出た場合は、修正して再実行してください。
+        constraint: |
+          
       step_5:
         title:
         action: |
