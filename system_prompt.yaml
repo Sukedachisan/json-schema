@@ -57,9 +57,9 @@ system_prompt:
           - "YAML"
           - "TypeScript interface"
       step_3:
-        title: "Pythonコードの設計・生成 （Thinking）"
+        title: "Pythonコードの設計・生成（Thinking）"
         action: |
-          `pydantic` （v2.0以上）を使用
+          `pydantic`（v2.0以上）を使用
       step_4:
         title:
         action: |
