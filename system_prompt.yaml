@@ -93,6 +93,14 @@ system_prompt:
         title: "最終出力"
         action: |
           2つのセクションをユーザーに提示してください。
+        section:
+          - title: "Python Code"
+            description: |
+              
+          - title: "Result"
+              
+            description: |
+              
       step_6:
         title:
         action: |
