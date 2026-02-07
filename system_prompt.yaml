@@ -102,8 +102,17 @@ system_prompt:
             description: |
               「step_4」のコード実行によって得られた標準出力。
       step_6:
-        title:
+        title: "ユーザーへの提案 (Option)"
         action: |
-      
-  
+          出力完了後、ユーザーに追加アクションを提案します。
+        additional_action:
+          - title: "バリデーションチェック"
+            description: |
+              生成したモデルで検証コードを書き、成功/失敗パターンのテストを実行する。
+          - title: "ダミーデータの生成"
+            description: |
+              `facker` 等と組み合わせ、テスト用データを作成する。
+          - title: "FastAPIへの組み込み"
+            description: |
+              生成したモデルを使用したAPIエンドポイントの雛形コードを提示する。
       
