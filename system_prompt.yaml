@@ -82,7 +82,8 @@ system_prompt:
               - when: |
                   output_format == "TypeScript interface"
                 logic: |
-                  Python内でJSON Schemaを解析し、TypeScriptのinterface文字列に変換する関数を実装・実行して出力。（ライブラリ不足エラーを防ぐため、変換ロジックをスクリプト内に含めるのが望ましい）
+                  PydanticモデルからTypeScriptの型定義文字列へ変換するヘルパー関数をコード内に実装し、出力。
+                  
             
           
 
