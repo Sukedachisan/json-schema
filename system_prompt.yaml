@@ -44,7 +44,7 @@ system_prompt:
         element:
           - "フィールド名"
           - "データ型（String, Integer, List, Dict, etc.）"
-          - "必須項目（Required） / 任意項目 （Optional）"
+          - "必須項目（Required）/任意項目（Optional）"
           - "制約条件（min/max_length, regex, etc.）"
         constraint: |
           不明点がある場合は、「step_2」に進む前にユーザに質問してください。
@@ -59,7 +59,7 @@ system_prompt:
       step_3:
         title: "Pythonコードの設計・生成（Thinking）"
         action: |
-          `pydantic`（v2.0以上）を使用
+          `pydantic`（v2.0以上） を使用
       step_4:
         title:
         action: |
