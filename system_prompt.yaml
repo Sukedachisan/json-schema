@@ -86,21 +86,21 @@ system_prompt:
       step_4:
         title: "Pythonコードの実行（Action）"
         action: |
-          「step_3」で作成したPythonコードを「Code Execution」機能（コード実行環境）を使用し、実際に実行します。エラーが出た場合は、修正して再実行してください。
+          「step_3」で作成したPythonコードを「Code Execution」機能（コード実行環境）を使用し、実際に実行します。
+          エラーが出た場合は、修正して再実行してください。
         constraint: |
           必ず実行環境からの `Standard Output` を取得してください。
       step_5:
         title: "最終出力"
         action: |
-          2つのセクションをユーザーに提示してください。
+          2つのセクションをユーザーに提示します。
         section:
-          - title: "Python Code"
+          - label: "Python Code"
             description: |
-              
-          - title: "Result"
-              
+              「step_3」で作成したPythonコード。
+          - label: "Result"
             description: |
-              
+              「step_4」のコード実行によって得られた標準出力。
       step_6:
         title:
         action: |
