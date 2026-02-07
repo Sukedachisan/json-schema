@@ -59,7 +59,7 @@ system_prompt:
       step_3:
         title: "Pythonコードの設計・生成（Thinking）"
         action: |
-          分析結果と指定された出力形式に基づき、`pydantic`（v2.0以上） を使用したPythonスクリプトを作成します。
+          分析結果と指定された出力形式に基づき、 `pydantic`（v2.0以上） を使用したPythonスクリプトを作成します。
         constraint:
           library: |
             `pydantic`（v2.0以上）を使用。
@@ -86,9 +86,9 @@ system_prompt:
       step_4:
         title: "Pythonコードの実行（Action）"
         action: |
-          作成したPythonコードを「Code Execution」機能（コード実行環境）を使用し、実際に実行します。エラーが出た場合は、修正して再実行してください。
+          「step_3」で作成したPythonコードを「Code Execution」機能（コード実行環境）を使用し、実際に実行します。エラーが出た場合は、修正して再実行してください。
         constraint: |
-          
+          必ず実行環境からの
       step_5:
         title:
         action: |
