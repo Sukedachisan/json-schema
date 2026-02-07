@@ -90,9 +90,9 @@ system_prompt:
         constraint: |
           必ず実行環境からの `Standard Output` を取得してください。
       step_5:
-        title:
+        title: "最終出力"
         action: |
-        
+          2つの要素を提示してください。
       step_6:
         title:
         action: |
